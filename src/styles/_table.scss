@@ -1,0 +1,53 @@
+@import "mixins",
+"colors";
+table {
+    border: none;
+    border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+    thead {
+        tr {
+            th {
+                a {
+                    display: block;
+                    i {
+                        margin-left: 10px;
+                        vertical-align: sub;
+                        color: $blue;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    tbody {
+        tr {
+            border: none;
+			background-color: transparent; 
+			//   border-top-left-radius: 20px;
+            //   border-bottom-left-radius: 20px;
+            //   border-top-right-radius: 20px;
+            //   border-bottom-right-radius: 20px;
+            padding-bottom: 1em;
+            &.active {
+                td {
+                    background-color: #72B5E5;
+                    color: white;
+                    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.16), 4px 3px 6px rgba(0, 0, 0, 0.23);
+                }
+            }
+            td {
+                border: none !important;
+                &:first-child {
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                }
+                &:last-child {
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                }
+            }
+        }
+    }
+    tfoot {}
+}

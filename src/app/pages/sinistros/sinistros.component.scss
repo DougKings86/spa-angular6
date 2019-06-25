@@ -1,0 +1,131 @@
+@import
+    "mixins",
+    "colors"
+    ;
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+// Modal
+.folder-list {
+
+    .folder-item {
+        padding: 15px;
+        cursor: pointer;
+
+        .folder {
+            &-image {
+                margin-bottom: 0;
+            }
+            &-name {
+                margin-bottom: 0;
+                font-size: 0.8em;        
+            }
+        }
+
+        &:hover {
+
+            .folder-name {
+                text-decoration: underline;
+                color: $blue;
+            }
+        }
+    }
+}
+
+.selected-list-images {
+
+    img {
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+.images-list {
+
+    .col {
+        text-align: center;
+        position: relative;
+
+        img.car-image {
+            max-width: 120px;
+            height: auto;
+            
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $blue;
+                border-color: $blue;
+            }
+            
+            &.selected {
+                filter:opacity(30%);
+                background-color: $orange;
+                border-color: $orange;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: $orange;
+                    border-color: $orange;
+                }
+            }
+        }
+        .icon-checked {
+            display: none;
+        }
+        .icon-checked.selected {
+            display: block;
+            position: absolute;
+            width: 30px;
+            top: 50%;
+            left: 50%;
+            margin-top: -15px;
+            margin-left: -15px;
+            z-index: 5;
+        }
+
+        /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    }
+}
+
+.preview-selected {
+
+    .images-list {
+
+        .images-item {
+            position: relative;
+            //width: 80px;
+
+            img.car-image {
+                width: 80px;
+            }
+            
+            .close-button {
+                position: absolute;
+                top: -5px;
+                right: -3px;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+
+    .modal-body {
+        
+        p.no-image {
+            margin-bottom: 1rem;
+            padding: 30% 0;
+            font-size: 1.4em;
+            color: $red;
+        }
+    }
+}

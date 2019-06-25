@@ -1,0 +1,642 @@
+[
+    {
+        "codigo": "45689713",
+        "frente": "SIM",
+        "lateral": "NÃO",
+        "traseira": "SIM",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "image": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://i2.wp.com/farm4.static.flickr.com/3158/2591738366_61dca54cba.jpg?w=640"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://files.uruguaibatidos.com/system_preview_detail_200000021-68c6e69c11-public/Super-Carros-Batidos-.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/03_01_11_-_palio_-_an_-_dentro.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "7839217328",
+        "frente": "SIM",
+        "lateral": "SIM",
+        "traseira": "NÃO",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://http2.mlstatic.com/S_742831-MLB26337823404_112017-O.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "https://brancar.websiteseguro.com/imagens/batidos.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "https://www.carrosdub.com.br/wp-content/uploads/2014/09/carros-de-luxo-batidos-11.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://yata.ostr.locaweb.com.br/54b86c1a4160da5800c7ed97998e8f27c1bfac3784f2b26c72c20d9da8e5f8dc"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "6S84234892",
+        "frente": "NÃO",
+        "lateral": "NÃO",
+        "traseira": "SIM",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://www.tudopracarro.com.br/uploads/meli/232563/_lista_carros-batidos-sucata-peugeot-206-presence-1.4-flex-8v2006.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "https://emfocoauto.files.wordpress.com/2011/02/auto018.jpg?w=604"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/03_01_11_-_palio_-_an_-_dentro.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "543264",
+        "frente": "NÃO",
+        "lateral": "SIM",
+        "traseira": "NÃO",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://i2.wp.com/farm4.static.flickr.com/3158/2591738366_61dca54cba.jpg?w=640"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/img19.jpeg?w=584"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://i.ytimg.com/vi/xeeJB4BPE2I/hqdefault.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "983729",
+        "frente": "SIM",
+        "lateral": "NÃO",
+        "traseira": "NÃO",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://i2.wp.com/farm4.static.flickr.com/3158/2591738366_61dca54cba.jpg?w=640"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://files.uruguaibatidos.com/system_preview_detail_200000021-68c6e69c11-public/Super-Carros-Batidos-.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/03_01_11_-_palio_-_an_-_dentro.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "1122331210",
+        "frente": "SIM",
+        "lateral": "NÃO",
+        "traseira": "NÃO",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://leopardoveiculos.files.wordpress.com/2012/10/vw_jetta_carro_batido.jpg?w=652"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://files.uruguaibatidos.com/system_preview_detail_200000021-68c6e69c11-public/Super-Carros-Batidos-.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/03_01_11_-_palio_-_an_-_dentro.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "253610360",
+        "frente": "SIM",
+        "lateral": "NÃO",
+        "traseira": "NÃO",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://i2.wp.com/farm4.static.flickr.com/3158/2591738366_61dca54cba.jpg?w=640"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://files.uruguaibatidos.com/system_preview_detail_200000021-68c6e69c11-public/Super-Carros-Batidos-.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/03_01_11_-_palio_-_an_-_dentro.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    },
+    {
+        "codigo": "0362034260",
+        "frente": "SIM",
+        "lateral": "NÃO",
+        "traseira": "NÃO",
+        "images": [
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://i2.wp.com/farm4.static.flickr.com/3158/2591738366_61dca54cba.jpg?w=640"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://www.373batidos.com.br/ImageView.ashx?foto=6905&thumbnail=false"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://files.uruguaibatidos.com/system_preview_detail_200000021-68c6e69c11-public/Super-Carros-Batidos-.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "https://carrosbatidos.files.wordpress.com/2011/01/03_01_11_-_palio_-_an_-_dentro.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s2.glbimg.com/sbV155WoBJH6p6sCGjCStGXjYg4=/620x465/s.glbimg.com/jo/g1/f/original/2016/09/05/carro_batido.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "broken-car-headlight-grey-32331804.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "images3.jpg",
+                "image_src": "http://carros.viaki.com/mercado/downloads/carros/private/ad_67261_1.jpg"
+            },
+            {
+                "posicao": "Dianteira",
+                "analise": {
+                    "class": "leve",
+                    "score": 0.290878
+                },
+                "name": "12-highlander-before-repairs-003.jpg",
+                "image_src": "http://s.glbimg.com/jo/g1/f/original/2012/03/29/carro_batido.jpg"
+            }
+        ]
+    }
+]

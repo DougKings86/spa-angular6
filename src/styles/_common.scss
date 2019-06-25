@@ -1,0 +1,19 @@
+body {
+  background-color: #EFEFEF;
+}
+
+a svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.full-size-bg {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-size: cover;
+}
+
+.flex-grow-initial {
+  flex-grow: initial;
+}

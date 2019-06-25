@@ -1,0 +1,61 @@
+@import
+  "mixins",
+  "colors"
+;
+
+.dropdown {
+
+  a {
+    outline: none !important;
+  }
+
+  .btn {     
+    text-align: left;
+    display: flex;
+    align-items: center;
+    @include materialShadow(2, 'box');
+    
+      span.caret {
+        flex: auto;
+      }
+  }
+
+  .dropdown-menu {
+    width: 100%;
+
+    .dropdown-item {
+      transition: all 250ms ease-in-out;
+      
+      &:not(:first-of-type) {
+        padding: 0;
+      }
+
+      a {
+        display: block;
+        color: $gray-700;
+        border-top: 1px solid $gray-400;
+        padding: 6px;
+        margin: 0 24px;
+
+        input[type="checkbox"] {
+          display: none;
+        }
+      }
+
+      &:active {
+        background-color: $sulamerica-orange;
+        
+        a {
+          color: white;
+          border-color: $sulamerica-orange;
+        }
+
+      }
+
+      &:first-of-type:active {
+        background-color: inherit;
+      }
+    }
+  }
+
+}

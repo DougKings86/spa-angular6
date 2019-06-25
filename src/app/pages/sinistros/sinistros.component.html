@@ -1,0 +1,193 @@
+<nav-bar></nav-bar>
+
+<div class="container">
+
+
+	<div class="row">
+		<div class="col d-flex justify-content-center">
+			<button type="button" class="btn btn-warning btn-block" (click)="openModalBucket()">Buscar Sinistros</button>
+		</div>
+	</div>
+
+	<div class="row" [hidden]="BucketImagesSelecionadas.length == 0">
+		<div class="col">
+			<ss-multiselect-dropdown [options]="Modelos" [texts]="ModeloTexts" [(ngModel)]="ModeloSelecionado" [settings]="ModeloSettings"
+			 (ngModelChange)="AlterouModeloVeiculo($event)"></ss-multiselect-dropdown>
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid">
+
+	<div class="row d-flex images-list align-items-center justify-content-center selected-list-images">
+		<div class="col frame image-tooltip flex-grow-initial" *ngFor="let imagem of BucketImagesSelecionadas;let i = index;">
+			<img [src]="imagem.src" 
+				class="rounded img-thumbnail" 
+				(click)="openModalImageComparePorSelecao(i, imagem)"
+				data-toggle="popover"
+				data-html="true"
+				data-trigger="hover"
+				title="Informações sobre a imagem"
+				[attr.data-content]="imagem.popover">
+		</div>
+	</div>
+
+	<div class="row d-flex images-list align-items-center justify-content-center selected-list-images" *ngIf="SinistroSelecionado != null">
+		<div class="col frame image-tooltip flex-grow-initial" *ngFor="let imagem of SinistroSelecionado.imagesLink;let i = index;">
+			<img [src]="imagem.src"
+				class="rounded img-thumbnail"
+				(click)="openModalImageComparePorAnalize(imagem)"
+				data-toggle="popover"
+				data-html="true"
+				data-trigger="hover"
+				title="Informações sobre a imagem"
+				[attr.data-content]="popoverContent">
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid">
+
+	<div class="row" *ngIf="Sinistros != null">
+		<div class="col">
+			<table cellspacing="5" class="table" [mfData]="Sinistros?.grid" #mf="mfDataTable" (mfSortByChange)="SetOrdenacaoColuna($event)"
+			 (mfSortOrderChange)="SetOrdenacao($event)">
+				<thead>
+					<tr>
+						<th>
+							<mfDefaultSorter by="SINISTRO">Sinistro
+								<i class="material-icons" [ngClass]="ObterOrdenacao('SINISTRO')">{{ObterOrdenacao('SINISTRO') != '' ? 'sort' : ''}}</i>
+							</mfDefaultSorter>
+						</th>
+						<th>
+							<mfDefaultSorter by="DESC_IMPACTO">Descrição do Impacto
+								<i class="material-icons" [ngClass]="ObterOrdenacao('DESC_IMPACTO')">{{ObterOrdenacao('DESC_IMPACTO') != '' ? 'sort' : ''}}</i>
+							</mfDefaultSorter>
+						</th>
+						<th>
+							<mfDefaultSorter by="NUM_ORCAMENTO_UNICO">Num Orçamento Único
+								<i class="material-icons" [ngClass]="ObterOrdenacao('NUM_ORCAMENTO_UNICO')">{{ObterOrdenacao('NUM_ORCAMENTO_UNICO') != '' ? 'sort' : ''}}</i>
+							</mfDefaultSorter>
+						</th>
+						<th>
+							<mfDefaultSorter by="SCORE">Score
+								<i class="material-icons" [ngClass]="ObterOrdenacao('SCORE')">{{ObterOrdenacao('SCORE') != '' ? 'sort' : ''}}</i>
+							</mfDefaultSorter>
+						</th>
+						<th>
+							<mfDefaultSorter by="PERC_ASSERTIVIDADE">Percentual de assertivida
+								<i class="material-icons" [ngClass]="ObterOrdenacao('PERC_ASSERTIVIDADE')">{{ObterOrdenacao('PERC_ASSERTIVIDADE') != '' ? 'sort' : ''}}</i>
+							</mfDefaultSorter>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let sinistro of mf.data" [ngClass]="{active: (SinistroSelecionado.SINISTRO == sinistro.SINISTRO)}" (click)="SelecionarSinistro(sinistro)">
+						<td>{{sinistro.SINISTRO}}</td>
+						<td>{{sinistro.DESC_IMPACTO}}</td>
+						<td>{{sinistro.NUM_ORCAMENTO_UNICO}}</td>
+						<td>{{sinistro.SCORE}}</td>
+						<td>{{sinistro.PERC_ASSERTIVIDADE}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<ng-template #templateModalBucket>
+	<div class="modal-header">
+		<h4 class="modal-title pull-left">Selecionar</h4>
+		<button type="button" class="close pull-right" aria-label="Close" (click)="modalBucket.hide()">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class="modal-body">
+
+		<div class="row d-flex" *ngIf="Bucket == null">
+			<div class="col p-12">
+				<input type="search" class="form-control" [(ngModel)]="termoBusca" placeholder="Pesquise pelo Nº de sinistro">
+			</div>
+		</div>
+
+		<div class="row d-flex folder-list" *ngIf="Bucket == null">
+			<div class="col flex-grow-initial folder-item" *ngFor="let bucket of FiltrarBuckets()">
+				<p (click)="SelecionarBucket(bucket)" class="text-center folder-image">
+					<img src="../../assets/images/folder.svg" width="50px">
+				</p>
+				<p (click)="SelecionarBucket(bucket)" class="text-center folder-name">{{bucket.bucketName}}</p>
+			</div>
+		</div>
+
+		<nav aria-label="breadcrumb" role="navigation" *ngIf="Bucket != null">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item" aria-current="page">
+					<a href="javascript:void(0);" (click)="VoltarBucket()">
+						<svg fill="#0093CC" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z" />
+							<path d="M0-.5h24v24H0z" fill="none" />
+						</svg>
+						Voltar
+					</a>
+				</li>
+			</ol>
+		</nav>
+
+		<div class="row d-flex images-list align-items-center" *ngIf="Bucket != null">
+			<div class="col p-2" *ngFor="let imagem of Bucket.images">
+				<img *ngIf="imagem.src != null" class="rounded img-thumbnail car-image" [src]="imagem.src" [alt]="imagem.name" (click)="SelecionarImagemBucket(imagem)"
+				 [ngClass]="{selected: ImagemSelecionado(imagem)}">
+				<img src="../../assets/images/checked.svg" class="icon-checked" [ngClass]="{selected: ImagemSelecionado(imagem)}">
+			</div>
+		</div>
+
+		<div class="preview-selected" *ngIf="BucketImagesPreSelecao.length > 0">
+			<hr>
+			<h5 [ngClass]="{'text-success': BucketImagesPreSelecao.length == 8}">Imagens selecionadas {{BucketImagesPreSelecao.length}}/8</h5>
+			<hr>
+			<div class="row d-flex flex-row flex-wrap images-list align-items-start">
+				<div class="p-2 images-item" *ngFor="let imagem of BucketImagesPreSelecao;let i = index;">
+					<img [src]="imagem.src" class="img-fluid rounded img-thumbnail car-image">
+					<div class="close-button" (click)="SelecionarImagemBucket(imagem)">
+						<img src="../../assets/images/cancel.svg" alt="X">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="alert alert-danger" *ngIf="NotificarErro != null">{{NotificarErro}}</div>
+
+	</div>
+	<div class="modal-footer" *ngIf="Bucket != null">
+		<button type="button" class="btn btn-primary" (click)="FecharSelecaoBucket()">Selecionar</button>
+	</div>
+</ng-template>
+
+<ng-template #templateImageCompare id="templateImageCompare">
+	<div class="modal-header">
+		<h4 class="modal-title pull-left">Comparação de imagens</h4>
+		<button type="button" class="close pull-right" aria-label="Close" (click)="modalImageCompare.hide()">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class="modal-body">
+		<div class="row d-flex images-list justify-content-center">
+			<div class="col-sm-6 frame image-tooltip flex-grow-initial img-thumbnail text-center">
+				<h5 class="text-primary text-left">Selecionada manualmente</h5>
+				<img *ngIf="urlImageCompare1 != null" [src]="urlImageCompare1" alt="Imagem selecionada pelo usuário" class="img-fluid" >
+				<div style="margin: 30% 0;" class="alert alert-danger" *ngIf="urlImageCompare1 == null" role="alert">
+					Nenhuma imagem para ser comparada nessa posição
+				</div>
+			</div>
+			<div class="col-sm-6 frame image-tooltip flex-grow-initial img-thumbnail text-center">
+				<h5 class="text-primary text-left">Selecionada pelo servidor</h5>
+				<img *ngIf="urlImageCompare2 != null" [src]="urlImageCompare2" alt="Imagem recebida pelo servidor" class="img-fluid" >
+				<div style="margin: 30% 0;" class="alert alert-danger" *ngIf="urlImageCompare2 == null" role="alert">
+					Nenhuma imagem para ser comparada nessa posição
+				</div>
+			</div>
+		</div>
+	</div>
+</ng-template>
